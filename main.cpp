@@ -86,16 +86,16 @@ int main()
 }
 
 struct Element
-{
-    char symbol[3] = "un";
+{ //short AtomicNumber = 0; 
+    char symbol[3] = "un"; 
     char name[25] = "unk";
     float mass = 0.0;
     char state = 'x';
     short groupNum = 0;
     short periodNum = 0;
     short blockType = 0;
-    float meltingPt = 0;
-    float boilPt = 0;
+    float meltingPt = 0; //0.0 is better 
+    float boilPt = 0;    //0.0 is better 
     short discoveryYr = 0;
     char scientist[100] = "unk";
 };
