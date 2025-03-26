@@ -64,7 +64,7 @@ int main()
         cout << "\n\t Q) Quit";
         cout << "\n\t" << string(162, char(205));
 
-        switch (inputInteger("\n\tOption: ", 0, 20))
+        switch (inputInteger("\n\tOption: ", 0, 20)) //inputChar(("\n\tOption: ", static_cast<string>("ABCXQ)));
         {
         case 'Q': exit(0);
         case 'A': advancedBinaryFile(); 
